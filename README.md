@@ -1,1 +1,6 @@
 # JEU-DE-DAMES-
+
+
+Le but de ce repo est de montrer des stratégies et tactique pour débutant ou joueurs de tout niveau ceci afin de facilité l'apprentissage aussi afin de regrouper les sources diverses
+
+on veut tester si mettre du html a partir de turbodambase fonctionne 
