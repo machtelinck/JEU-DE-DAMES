@@ -5,3 +5,4 @@ Le but de ce repo est de montrer des stratégies et tactique pour débutant ou j
 
 on veut tester si mettre du html a partir de turbodambase fonctionne 
 <a href="another.html">Voir la partie Dagblad van het Noorden</a>
+<a href="test_lidraught.html"> blablabla</a>
