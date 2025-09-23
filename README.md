@@ -15,5 +15,9 @@ et si les liens lidraught fonctionne
 
 <a href="premier_chap_endg.html"> lalala</a>
 
+<a href="CORDIER_GUINARD.htm"> pas trop de diffucté </a>
+
+
+
 
 
