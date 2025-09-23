@@ -1,96 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Les bases – Cursus Tjallin Goedmoed</title>
+  <style>
+    :root{
+      --fg:#1f2937;      /* texte */
+      --muted:#6b7280;   /* texte secondaire */
+      --link:#2563eb;    /* liens */
+      --bg:#f9fafb;      /* fond */
+      --card:#ffffff;    /* carte */
+      --shadow:0 6px 16px rgba(0,0,0,.06);
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;
+      color:var(--fg);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:980px;
+      margin:40px auto;
+      padding:0 20px;
+    }
+    header h1{
+      margin:0 0 6px;
+      font-size:clamp(28px,4vw,40px);
+      letter-spacing:.3px;
+    }
+    header p{
+      margin:0 0 22px;
+      color:var(--muted);
+    }
+    .section{
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+      margin:18px 0;
+    }
+    .section h2{
+      margin:0 0 12px;
+      font-size:clamp(20px,2.6vw,24px);
+    }
 
+    /* listes en colonnes sur grands écrans */
+    ol{
+      margin:0;
+      padding-left:18px;
+      display:grid;
+      gap:6px 18px;
+    }
+    /* 1 col mobile, 2 cols >=700px, 3 cols >=1000px */
+    @media (min-width:700px){ ol{ grid-template-columns:repeat(2, minmax(0,1fr)); } }
+    @media (min-width:1000px){ ol{ grid-template-columns:repeat(3, minmax(0,1fr)); } }
 
-
-
-
-
-
-
-
-
-
-  <title>Les bases</title>
+    li{ margin:4px 0; }
+    a{
+      color:var(--link);
+      text-decoration:none;
+      border-bottom:1px solid transparent;
+    }
+    a:hover{ border-color:var(--link); }
+    footer{
+      color:var(--muted);
+      font-size:14px;
+      margin-top:26px;
+      text-align:center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Cursus Tjallin Goedmoed</h1>
+  <div class="wrap">
+    <header>
+      <h1>Cursus Tjallin Goedmoed</h1>
+      <p>Parcours de base (français). Choisissez un chapitre pour ouvrir la page correspondante.</p>
+    </header>
 
+    <section class="section">
+      <h2>Premiers chapitres (1–10)</h2>
+      <ol start="1">
+        <li><a href="TGC1.html">La prise obligatoire</a></li>
+        <li><a href="TGC2.html">La prise majoritaire</a></li>
+        <li><a href="TGC3.html">Bouger avec la dame</a></li>
+        <li><a href="TGC4.html">Les captures avec la dame</a></li>
+        <li><a href="TGC5.html">L’attaque des pièces</a></li>
+        <li><a href="TGC6.html">Se défendre d’une attaque</a></li>
+        <li><a href="TGC7.html">Faire un coup</a></li>
+        <li><a href="TGC8.html">Bloquer l’adversaire</a></li>
+        <li><a href="TGC9.html">Déborder</a></li>
+        <li><a href="TGC10.html">Juger une position</a></li>
+      </ol>
+    </section>
 
+    <section class="section">
+      <h2>Suite du cours (11–20)</h2>
+      <ol start="11">
+        <li><a href="TGC11.html">Coup</a></li>
+        <li><a href="TGC12.html">Faire un coup avec la dame</a></li>
+        <li><a href="TGC13.html">Faire un plan</a></li>
+        <li><a href="TGC14.html">Enlever une pièce</a></li>
+        <li><a href="TGC15.html">Utiliser un temps de repos</a></li>
+        <li><a href="TGC16.html">Collage</a></li>
+        <li><a href="TGC17.html">Coup avec prise majoritaire</a></li>
+        <li><a href="TGC18.html">Ramener une pièce</a></li>
+        <li><a href="TGC19.html">Envoi à dame</a></li>
+        <li><a href="TGC20.html">Coup de talon</a></li>
+      </ol>
+    </section>
 
-  <p>ON va essayer de mettre les premiers cours ici
-    <a href="TGC1.html"> 1 La prise obligatoire </a> 
-  </n>
-    <a href="TGC2.html"> 2 La prise majoritaire </a>
-    </n>
-    <a href="TGC3.html"> 3 Bouger avec la dames </a>
-    </n>
-    <a href="TGC4.html"> 4 Les captures avec la dames </a>
-    </n>
-    <a href="TGC5.html"> 5 L'attaque des pièces</a>
-    </n>
-    <a href="TGC6.html"> 6 Se défendre d'une attaque </a>
-    </n>
-    <a href="TGC7.html"> 7 Faire un coup </a>
-    </n>
-    <a href="TGC8.html"> 8 Bloquer l'adversaire </a>
-    </n>
-    <a href="TGC9.html"> 9 Déborder </a>
-    </n>
-    <a href="TGC10.html"> 10 Jugé une position</a>
-    </n>
-    </n>
-    </n>
-    
-  
-  
-  <p> la suite 
- <a href="TGC11.html"> 11 Coup </a> 
- </n>
-<a href="TGC12.html"> 12 Faire un coup avec la dame</a> 
-</n>
- <a href="TGC13.html"> 13 Faire un plan </a> 
- </n>
-  <a href="TGC14.html"> 14 Enlever une pièce </a> 
-  </n>
-   <a href="TGC15.html"> 15 Utilisé un temps de repos </a> 
-   </n>
-    <a href="TGC16.html"> 16 Collage </a> 
-    </n>
-     <a href="TGC17.html"> Coup avec prise majoritaire</a> 
-     </n>
-      <a href="TGC18.html"> 18 Ramener une pièce</a> 
-      </n>
-       <a href="TGC19.html"> 19 Envoi à dames</a> 
-       </n>
-         <a href="TGC20.html"> 20 Coup de Talon </a> 
-         </n></n></n>
+    <section class="section">
+      <h2>Fin du cours (21–24)</h2>
+      <ol start="21">
+        <li><a href="TGC21.html">Choix de capture</a></li>
+        <li><a href="TGC22.html">Position avec de nombreuses pièces</a></li>
+        <li><a href="TGC23.html">QCM</a></li>
+        <li><a href="TGC24.html">Quelques débuts</a></li>
+      </ol>
+    </section>
 
-
-</p>
-
-
-  </p> Bientôt la fin de ce cours reinitialisation
- 
-         <a href="TGC21.html"> 21 Choix de capture </a> 
-         </n>
-          <a href="TGC22.html"> 22 Position avec de nombreuses pièces </a> 
-          </n>
-           <a href="TGC23.html"> 23 QCM </a> 
-           </n>
-            <a href="TGC24.html"> 24 quelque début </a> 
-            </n>
-
-
-</p>
-
-  
-  
-  </p>
-
+    <footer>
+      <a href="../index.html">← Retour à l’accueil</a>
+    </footer>
+  </div>
 </body>
 </html>
-
-
