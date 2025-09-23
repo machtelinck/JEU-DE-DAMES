@@ -3,19 +3,26 @@
 
 Le but de ce repo est de montrer des stratégies et tactique pour débutant ou joueurs de tout niveau ceci afin de facilité l'apprentissage aussi afin de regrouper les sources diverses
 
-on veut tester si mettre du html a partir de turbodambase fonctionne 
-<a href="another.html">Voir la partie Dagblad van het Noorden</a>
 
-et si les liens lidraught fonctionne
+
+
+Les bases : <a href="machtelinck/JEU-DE-DAMES/bases/bases.md"> composition Roel Boomstra</a>
+
+
+
+on veut tester si mettre du html a partir de turbodambase fonctionne 
+<a href="another.html"> composition Roel Boomstra</a>
+
+
 
 
 <a href="test_lidraught.html"> blablabla</a>
 
 
 
-<a href="premier_chap_endg.html"> lalala</a>
+<a href="premier_chap_endg.html"> fin de partie basique</a>
 
-<a href="CORDIER_GUINARD.htm"> pas trop de diffucté </a>
+<a href="CORDIER_GUINARD.htm"> pas trop de difficulté </a>
 
 
 
