@@ -84,7 +84,7 @@
     <section class="section">
       <h2>Premiers chapitres (1–10)</h2>
       <ol start="1">
-        <li><a href="TGC1.html">La prise obligatoire</a></li>
+        <li><a href="href=viewer.html?src=https://lidraughts.org/study/embed/ow5abxxF/KeuLUEpk">La prise obligatoire</a></li>
         <li><a href="TGC2.html">La prise majoritaire</a></li>
         <li><a href="TGC3.html">Bouger avec la dame</a></li>
         <li><a href="TGC4.html">Les captures avec la dame</a></li>
@@ -127,5 +127,25 @@
       <a href="../index.html">← Retour à l’accueil</a>
     </footer>
   </div>
+  <script src="bases/chapters.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const map = window.TGC_MAP || {};
+  document.querySelectorAll('a[href^="TGC"][href$=".html"]').forEach(a => {
+    const m = a.getAttribute('href').match(/^(TGC\d+)\.html$/i);
+    if (!m) return;
+    const key = m[1];
+    const cfg = map[key];
+    if (!cfg) return;
+
+    const params = new URLSearchParams({
+      title: cfg.title,
+      src: cfg.src
+    });
+    a.setAttribute('href', `viewer.html?${params.toString()}`);
+  });
+});
+</script>
+
 </body>
 </html>
