@@ -6,7 +6,7 @@ Le but de ce repo est de montrer des stratégies et tactique pour débutant ou j
 
 
 
-Les bases : <a href="machtelinck/JEU-DE-DAMES/bases/index.html"> composition Roel Boomstra</a>
+Les bases : <a href="machtelinck/JEU-DE-DAMES/bases/index.html"> test </a>
 
 
 
