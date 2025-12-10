@@ -1,11 +1,6 @@
 # JEU-DE-DAMES-
 
 
-Le but de ce repo est de montrer des stratégies et tactique pour débutant ou joueurs de tout niveau ceci afin de facilité l'apprentissage aussi afin de regrouper les sources diverses
-
-
-
-
 Les bases : <a href="bases/index.html"> (pour débutant) </a>
 
 
