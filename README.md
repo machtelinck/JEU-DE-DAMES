@@ -10,7 +10,7 @@ Les bases : <a href="bases/index.html"> (pour débutant) </a>
 
 
 
-on veut tester si mettre du html a partir de turbodambase fonctionne 
+Composition (en cours de création)
 <a href="another.html"> composition Roel Boomstra</a>
 
 
