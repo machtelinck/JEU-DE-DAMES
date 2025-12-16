@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cours Wattrelos — Préambule</title>
+  <style>
+    :root{
+      --max: 980px;
+      --pad: 18px;
+      --radius: 14px;
+      --border: rgba(255,255,255,.12);
+      --muted: rgba(255,255,255,.70);
+      --bg: #0b0f19;
+      --card: rgba(255,255,255,.04);
+      --ink: rgba(255,255,255,.92);
+      --accent: #7aa2ff;
+    }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    main{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 34px var(--pad);
+    }
+    header{
+      margin-bottom: 18px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+    }
+    h1{
+      margin: 0 0 6px;
+      font-size: 1.8rem;
+      letter-spacing: .2px;
+    }
+    .subtitle{
+      margin:0;
+      color: var(--muted);
+      font-size: .98rem;
+    }
+    nav{
+      margin-top: 12px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    nav a{
+      display:inline-block;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--ink);
+      text-decoration: none;
+      background: rgba(255,255,255,.03);
+    }
+    nav a:hover{ border-color: rgba(255,255,255,.22); }
+    section{
+      padding: 18px;
+      margin: 16px 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--card);
+    }
+    h2{
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+    h3{
+      margin: 18px 0 8px;
+      font-size: 1.1rem;
+    }
+    hr{
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 18px 0;
+    }
+    ul{ margin: 8px 0 0 20px; }
+    li{ margin: 6px 0; }
+    blockquote{
+      margin: 12px 0;
+      padding: 12px 14px;
+      border-left: 4px solid var(--accent);
+      background: rgba(122,162,255,.08);
+      border-radius: 10px;
+      color: rgba(255,255,255,.92);
+    }
+    blockquote em{ color: rgba(255,255,255,.88); }
+    .arrow{
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .note{
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    strong{ color: rgba(255,255,255,.97); }
+    em{ color: rgba(255,255,255,.88); }
+    footer{
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: .95rem;
+      text-align: center;
+    }
+    code{
+      background: rgba(255,255,255,.06);
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Explication du sens du cours</h1>
+      <p class="subtitle">Préambule — Club de Wattrelos</p>
+
+      <!-- Optionnel : mets ici tes liens vers tes autres pages -->
+      <nav>
+        <a href="README.md">← Retour</a>
+        <!-- Exemple :
+        <a href="premier_chap_endg.html">Cours 32-28 20-25</a>
+        <a href="another.html">TurboDambase intégré</a>
+        -->
+      </nav>
+    </header>
+
+    <section>
+      <h2>Objectif général</h2>
+      <p>
+        Le but principal de ce premier cycle de cours est de <strong>préparer les joueurs aux Championnats d’Europe et du Monde jeunes</strong>.
+      </p>
+      <p>
+        À ce niveau de compétition, on ne joue plus seulement contre des joueurs « locaux », mais contre
+        <strong>des styles très différents</strong>, issus de cultures damistes variées. C’est précisément là que commencent les vraies difficultés.
+      </p>
+    </section>
+
+    <section>
+      <h3>1. Un choc de styles au niveau international</h3>
+      <p>On peut faire un premier constat simple :</p>
+      <ul>
+        <li><strong>En France</strong>, la formation met traditionnellement l’accent sur <span class="arrow">👉</span> <em>la partie classique statique</em></li>
+        <li><strong>Dans d’autres pays</strong>, les joueurs apprennent très tôt <span class="arrow">👉</span> des systèmes d’attaque : pion taquin, Roozenburg, jeux dynamiques, etc.</li>
+      </ul>
+
+      <p>Il en résulte souvent un <strong>clash de styles</strong> :</p>
+      <ul>
+        <li>le joueur français cherche à <em>amener une classique</em> ;</li>
+        <li>l’adversaire cherche à <em>créer du déséquilibre le plus tôt possible</em>.</li>
+      </ul>
+
+      <p>
+        Historiquement, on dit souvent que <em>« celui qui amène la classique a raison »</em>.
+        Ce n’est <strong>pas totalement faux</strong>, mais ce n’est <strong>pas suffisant</strong>.
+      </p>
+
+      <p>La vraie question est :</p>
+      <blockquote><em>Est-ce que la classique que l’on obtient est réellement bonne ?</em></blockquote>
+
+      <hr />
+
+      <h3>2. Le problème du système open : la classique marque peu</h3>
+      <p>En championnat international, on joue en <strong>système open</strong>, donc :</p>
+      <ul>
+        <li>c’est une <strong>course aux points</strong> ;</li>
+        <li>les nulles sont peu rentables.</li>
+      </ul>
+
+      <p>
+        Or, la partie classique est <strong>loin d’être la façon la plus simple de marquer des points</strong>.
+        Même des joueurs de très haut niveau s’en sont plaints (Ghestem l’a souvent évoqué).
+      </p>
+
+      <p>Aux Pays-Bas, on entend même l’expression :</p>
+      <blockquote>
+        <strong>« Klassiek is altijd remise »</strong><br />
+        <em>(la classique, c’est toujours nulle)</em>
+      </blockquote>
+
+      <p class="note">
+        Cela ne veut pas dire que la classique est mauvaise — mais qu’elle <strong>ne suffit pas, à elle seule</strong>, dans un système où il faut gagner.
+      </p>
+
+      <hr />
+
+      <h3>3. Un paradoxe : les Néerlandais et le « style africain »</h3>
+      <p>
+        Fait intéressant : les Néerlandais eux-mêmes rencontrent souvent des difficultés face au <strong>style africain</strong>.
+      </p>
+
+      <p><strong>Pourquoi ?</strong></p>
+      <ul>
+        <li>
+          Les joueurs néerlandais connaissent <strong>beaucoup de théorie de débuts</strong>,
+          souvent conçue pour <strong>éviter ou contourner la classique</strong>.
+        </li>
+        <li>
+          Les joueurs africains, eux :
+          <span class="arrow">👉</span> connaissent moins la théorie,
+          <span class="arrow">👉</span> jouent souvent <em>hors théorie</em>,
+          <span class="arrow">👉</span> et arrivent quand même en classique.
+        </li>
+      </ul>
+
+      <p>Mais :</p>
+      <ul>
+        <li>un <strong>léger désavantage initial</strong> apparaît ;</li>
+        <li>souvent compensé par : l’expérience de la classique, le panache, et une forte capacité tactique.</li>
+      </ul>
+
+      <hr />
+
+      <h3>4. Le vrai problème du joueur français</h3>
+      <p>Chez les joueurs français, on observe souvent autre chose :</p>
+      <ul>
+        <li>ils deviennent <strong>prévisibles</strong> ;</li>
+        <li>ils connaissent vaguement certains débuts, mais <strong>qui ne sont pas réellement des débuts classiques</strong>.</li>
+      </ul>
+
+      <p>Exemple typique :</p>
+      <blockquote><strong>32-28 19-23 avec reprise en 23</strong></blockquote>
+
+      <p>
+        Pour un joueur de type Roozenburg, c’est une <strong>invitation parfaite</strong> à créer du jeu.
+      </p>
+
+      <p>Face à cette pression :</p>
+      <ul>
+        <li>on apprend à <em>se mettre en boule</em>,</li>
+        <li>à défendre,</li>
+        <li>à essayer malgré tout de construire une classique.</li>
+      </ul>
+
+      <p>Mais à ce moment-là :</p>
+      <ul>
+        <li>l’adversaire a déjà gagné quelque chose ;</li>
+        <li>la classique obtenue est <strong>fragile</strong> ;</li>
+        <li>et souvent, <strong>elle ne tient pas</strong>.</li>
+      </ul>
+
+      <p class="note">
+        Après la partie, on analyse, on trouve « mieux à faire »… mais on <strong>ne remet pas en cause l’approche de départ</strong>,
+        très défensive et souvent vaine.
+      </p>
+
+      <hr />
+
+      <h3>5. L’erreur fondamentale</h3>
+      <p>
+        La première erreur, ce n’est <strong>pas</strong> le coup tactique raté.
+      </p>
+      <p><span class="arrow">👉</span> <strong>C’est d’avoir laissé un terreau fertile aux erreurs.</strong></p>
+
+      <p>Une bonne préparation consiste à :</p>
+      <ul>
+        <li><strong>réduire ses propres chances d’erreur</strong> ;</li>
+        <li><strong>augmenter celles de l’adversaire</strong>.</li>
+      </ul>
+
+      <p>Et cela commence très simplement par :</p>
+      <ul>
+        <li><strong>mieux connaître de vrais débuts classiques</strong> ;</li>
+        <li>savoir <em>assumer</em> la classique, au lieu de la subir.</li>
+      </ul>
+
+      <hr />
+
+      <h3>6. Le paradoxe français (très parlant)</h3>
+      <p>Face au début :</p>
+      <blockquote><strong>32-28 18-23</strong></blockquote>
+
+      <p>Le joueur français joue souvent :</p>
+      <ul>
+        <li><strong>34-29</strong> ou <strong>33-29</strong> <span class="arrow">👉</span> en refusant la classique…</li>
+      </ul>
+
+      <p class="note">
+        … alors même qu’il prétend vouloir jouer la classique.
+        C’est exactement ce paradoxe que ce premier cours cherche à corriger.
+      </p>
+
+      <hr />
+
+      <h3>Conclusion (esprit du cours)</h3>
+      <p>
+        Ce premier cours n’est donc <strong>pas</strong> un cours de variantes par cœur.
+      </p>
+      <ul>
+        <li>un <strong>changement d’approche</strong>,</li>
+        <li>une réflexion sur le <em>pourquoi</em>,</li>
+        <li>
+          et le début d’un travail visant à construire des
+          <strong>classiques solides, assumées et jouables</strong>,
+          même face à des styles agressifs et imprévisibles.
+        </li>
+      </ul>
+
+      <p class="note"><em>(Et oui — ceci n’est que le début du « yapping ».)</em></p>
+
+      <hr />
+
+      <h3>7. Ne pas tomber dans l’excès inverse</h3>
+      <p><span class="arrow">👉</span> <strong>On peut aller trop loin en cherchant à forcer la classique.</strong></p>
+
+      <p>
+        De la même manière que vouloir <em>à tout prix</em> amener une classique peut conduire à de <strong>mauvaises classiques</strong>,
+        l’adversaire peut, lui aussi, chercher à forcer des <strong>parties d’attaque</strong> qui, objectivement, <strong>ne sont pas bonnes</strong>.
+      </p>
+
+      <p>Ces deux excès existent.</p>
+
+      <p>
+        C’est précisément pour cela qu’il est <strong>indispensable de connaître plusieurs styles de jeu</strong> :
+      </p>
+      <ul>
+        <li>non pas pour les jouer systématiquement,</li>
+        <li>mais pour <strong>savoir quand ils sont justifiés</strong>… et quand ils ne le sont pas.</li>
+      </ul>
+
+      <hr />
+
+      <h3>8. Classique ≠ passivité : la notion de contre</h3>
+      <p>Un point fondamental, souvent mal compris :</p>
+      <blockquote><strong>Un bon joueur de classique est avant tout un excellent joueur de contre.</strong></blockquote>
+
+      <p>La classique ne devient réellement efficace que lorsque :</p>
+      <ul>
+        <li>l’adversaire cherche à créer du jeu sans fondement suffisant ;</li>
+        <li>et que l’on sait <strong>punir</strong> ces tentatives.</li>
+      </ul>
+
+      <p>
+        C’est à partir de ce moment-là que la classique cesse d’être une partie « sage » ou « prudente »
+        et devient <strong>un énorme engrangeur de points</strong>.
+      </p>
+
+      <p class="note">
+        Non pas parce qu’on force, mais parce que l’adversaire se met lui-même en difficulté.
+      </p>
+
+      <hr />
+
+      <h3>9. Le vrai objectif du cours</h3>
+      <p>Ce cours ne vise donc <strong>pas uniquement</strong> à jouer la classique pour jouer la classique.</p>
+
+      <p>Il vise à :</p>
+      <ul>
+        <li><strong>maîtriser les bases de la classique</strong> ;</li>
+        <li>comprendre <strong>quand elle est bonne et quand elle ne l’est pas</strong> ;</li>
+        <li>
+          et apprendre <strong>d’autres styles de jeu</strong>, afin de :
+          <ul>
+            <li>les neutraliser,</li>
+            <li>les contrer,</li>
+            <li>et transformer les excès adverses en occasions de gain.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr />
+
+      <h3>Message clé à retenir</h3>
+      <p><span class="arrow">👉</span> La classique n’est pas une fin en soi. <span class="arrow">👉</span> C’est un <strong>outil</strong>.</p>
+      <p>
+        Et comme tout outil puissant : mal utilisé, il devient stérile ; bien compris, il devient redoutable.
+      </p>
+    </section>
+
+    <footer>
+      <p>© Cours Wattrelos — document de travail</p>
+    </footer>
+  </main>
+</body>
+</html>
