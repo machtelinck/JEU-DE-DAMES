@@ -14,7 +14,7 @@ Composition (en cours de création)
 
 <a href="CORDIER_GUINARD.htm"> analyse partie Cordier - Guinard </a>
 
-<a href="Cours_wattrelos.html"> Cours Wattrelosssssss  </a>
+<a href="Cours_wattrelos0.html"> Cours Wattrelosssssss  </a>
 
 
 
